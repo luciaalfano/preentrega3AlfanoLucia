@@ -1,0 +1,76 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #272a29e2;
+}
+
+header {
+    background-color: #272a29e2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos específicos para la sección de balance */
+#balance {
+    background-color: #f0f0f0;
+}
+
+/* Estilos específicos para la sección de transferencias */
+#transfers ul,
+#payments ul {
+    padding: 0;
+}
+
+#transfers ul li,
+#payments ul li {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+}
+
+/* Estilos específicos para los enlaces en el footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
